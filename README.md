@@ -33,6 +33,7 @@ The `-a` flag is the same as `-rlptgoD`
 
 I think the ideal command for backing up files to an external drive is
 
+```
 rsync \
 --recursive \
 --perms \
@@ -42,5 +43,6 @@ rsync \
 --verbose \
 --compress \
 --human-readable
+```
 
 I don't want `--links`, `--devices`, or `--specials`
